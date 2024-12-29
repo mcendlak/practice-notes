@@ -4,11 +4,11 @@
 
 # `#05` PHP: Notes Mini-Project
 
-Przygotuj rozwiązanie, które będzie podatne na SQL Injection.
+Utwórz formularz, który pozwoli dodwać komentarze do strony z możliwośćią używania [bbcode](https://pl.wikipedia.org/wiki/BBCode) - wystarczy `[b]` oraz `[quote]`.
 
-Przykład:
-> Na podstawie adresu URL pobieraj informacje o `id` wiersza, który zostanie pobrany z bazy i wyświetlony na stronie. Nastepnie przygotuj taki adres URL dzięki, któremu będziesz w stanie podejrzeć dowolny rekord ze wskazanej tabeli.
+Dane w bazie zapisuj formie "normalnej" tj. tak jak użytkownik wpisał (pamiętaj o [zabezpieczeniu danych wejściowych](https://www.w3schools.com/php/filter_sanitize_special_chars.asp)), natomiast "decodowanie" zrób w momencie wyświetlania danych na stronie.
 
+Kopię bazy wrzuc  do pliku `db.sql`.
 
 
 
