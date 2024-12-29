@@ -29,7 +29,7 @@ Aby rozwiązać zadania niezbędna jest wiedza z zakresu:
 
 &nbsp;
 
-:arrow_left: [*poprzedni zestaw zadań (**PHP: The Fundamentals (1-11)**)*](https://github.com/devmentor-pl/practice-php)
+:arrow_left: [*poprzedni zestaw zadań (**PHP: Dynamic Web Application (12-20)**)*](https://github.com/devmentor-pl/practice-php-dynamic-web-application)
 
 ## Jak prawidłowo wykonać zadania?
 
