@@ -4,12 +4,11 @@
 
 # `#05` PHP: Notes Mini-Project
 
-Utwórz formularz, który pozwoli dodwać komentarze do strony z możliwośćią używania [bbcode](https://pl.wikipedia.org/wiki/BBCode) - wystarczy `[b]` oraz `[quote]`.
+Utwórz formularz, który pozwoli dodwać komentarze do strony z możliwością używania [bbcode](https://pl.wikipedia.org/wiki/BBCode) - wystarczy `[b]` oraz `[quote]`.
 
 Dane w bazie zapisuj formie "normalnej" tj. tak jak użytkownik wpisał (pamiętaj o [zabezpieczeniu danych wejściowych](https://www.w3schools.com/php/filter_sanitize_special_chars.asp)), natomiast "decodowanie" zrób w momencie wyświetlania danych na stronie.
 
-Kopię bazy wrzuc  do pliku `db.sql`.
-
+Kopię bazy wrzuć  do pliku `db.sql`.
 
 
 &nbsp;

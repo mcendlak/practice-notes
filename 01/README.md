@@ -9,7 +9,7 @@ Zaproponuj strukturę bazy danych dla bloga, na którym różni autorzy mogą pu
 
 Jeden artykuł może być przypisany do jednego autora, jednak może on trafić do kilku kategorii.
 
-Wyeksprotuj strukturę bazy danych do pliku `db.sql`. Jeśli Twój manadżer bazy danych daje taką możliwość wygeneruj również grafikę reprezentującą strukturę danych.
+Wyeksprotuj strukturę bazy danych do pliku `db.sql`. Jeśli Twój manadżer bazy danych daje taką możliwość wygeneruj również grafikę (diagram) reprezentującą strukturę danych.
 
 
 &nbsp;
