@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-        require 'Database.php';
+        require '../common/Database.php';
         require 'functions.php';
 
         $dataBase = new Database("localhost", "3306", "blog", "root");
