@@ -22,6 +22,10 @@ class Database {
         }
     }
 
+    public function getConnection() {
+        return $this->connection;
+    }
+
     public function selectAll($table){
         return $this->select("*", $table);
     }
