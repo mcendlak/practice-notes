@@ -1,5 +1,5 @@
 <?php
-require_once 'Database.php';
+require_once '../common/Database.php';
 
 class PostController {
     private $pdo;
