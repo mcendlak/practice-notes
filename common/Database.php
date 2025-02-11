@@ -26,6 +26,21 @@ class Database {
         return $this->connection;
     }
 
+    public function insert($table, $data) {
+        $columns = implode(", ", array_keys($data));
+        $placeholders = ":" . implode(", :", array_keys($data));
+    
+        $sql = "INSERT INTO $table ($columns) VALUES ($placeholders)";
+        $stmt = $this->connection->prepare($sql);
+    
+        foreach ($data as $key => &$val) {
+            $stmt->bindParam(":$key", $val);
+        }
+    
+        return $stmt->execute();
+    }
+    
+
     public function selectAll($table){
         return $this->select("*", $table);
     }
